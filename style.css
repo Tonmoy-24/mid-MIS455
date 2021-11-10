@@ -1,4 +1,4 @@
-#style1 {
+.style1 {
     background-color: #4CAF50;
     color: white;
     text-align: center;
@@ -66,4 +66,25 @@ li a {
 .row .column1 img{
     height: 110px;
     margin-top: 100px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px wheat;
+  background-color: gray;
+
+}
+
+.right-div {
+    margin-left: 40px; 
+   
+    
+}
+
+.left-div{
+   
+    padding: 40px;
 }
